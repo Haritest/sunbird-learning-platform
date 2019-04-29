@@ -238,14 +238,12 @@
     		<artifactId>cloud-store-sdk</artifactId>
     		<version>1.2.5</version>
 		</dependency>
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-core</artifactId>
+			<version>1.17.1</version>
+		</dependency>
 	</dependencies>
-
-	<repositories>
-		<repository>
-			<id>cloud-store</id>
-			<url>https://oss.sonatype.org/content/repositories/orgsunbird-1031</url>
-		</repository>
-	</repositories>
 
 	<build>
 		<pluginManagement>
